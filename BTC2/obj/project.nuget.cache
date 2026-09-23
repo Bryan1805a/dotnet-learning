@@ -1,13 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OaWZtkkkyCM=",
+  "dgSpecHash": "TCOAXton4CM=",
   "success": true,
-  "projectFilePath": "/home/runner/work/dotnet-learning/dotnet-learning/BTC2/BTC2.csproj",
-  "expectedPackageFiles": [
-    "/tmp/codeql-scratch-01259f31fee1311e/dbs/csharp/working/packages/microsoft.netcore.app.ref/10.0.11/microsoft.netcore.app.ref.10.0.11.nupkg.sha512",
-    "/tmp/codeql-scratch-01259f31fee1311e/dbs/csharp/working/packages/microsoft.windowsdesktop.app.ref/10.0.11/microsoft.windowsdesktop.app.ref.10.0.11.nupkg.sha512",
-    "/tmp/codeql-scratch-01259f31fee1311e/dbs/csharp/working/packages/microsoft.aspnetcore.app.ref/10.0.11/microsoft.aspnetcore.app.ref.10.0.11.nupkg.sha512",
-    "/tmp/codeql-scratch-01259f31fee1311e/dbs/csharp/working/packages/microsoft.netcore.app.host.linux-x64/10.0.11/microsoft.netcore.app.host.linux-x64.10.0.11.nupkg.sha512"
-  ],
+  "projectFilePath": "C:\\Users\\Bryan\\Documents\\windows_dev\\BTC2\\BTC2.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }
