@@ -1,0 +1,16 @@
+# Root EditorConfig file
+root = true
+
+[*.cs]
+# Use spaces instead of tabs
+indent_style = space
+indent_size = 4
+
+# Keep braces on the same line
+csharp_new_line_before_open_brace = none
+
+# Optional: control other new line rules
+csharp_new_line_between_members = true
+csharp_new_line_before_else = false
+csharp_new_line_before_catch = false
+csharp_new_line_before_finally = false
