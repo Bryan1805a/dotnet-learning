@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BTC2")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bf7a8b24abdebbc10845dc9c506590be1d949bed")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9f4f7e614d791dbe80dd5f9757eb76eb2f2a7e8b")]
 [assembly: System.Reflection.AssemblyProductAttribute("BTC2")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BTC2")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
