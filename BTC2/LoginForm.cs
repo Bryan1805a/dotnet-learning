@@ -42,21 +42,21 @@ public partial class LoginForm : Form
         txtPassword.Location = new System.Drawing.Point(140, 77);
         txtPassword.Size = new System.Drawing.Size(220, 20);
         txtPassword.PasswordChar = '*';
-        // txtPassword.KeyDown += TxtPassword_KeyDown;
+        txtPassword.KeyDown += TxtPassword_KeyDown;
 
         // Login button
         btnLogin = new Button();
         btnLogin.Text = "Login";
         btnLogin.Location = new System.Drawing.Point(120, 140);
         btnLogin.Size = new System.Drawing.Size(100, 35);
-        // btnLogin.Click += ;
+        btnLogin.Click += BtnLogin_Click;
 
         // Quit button
         btnQuit = new Button();
         btnQuit.Text = "Quit";
         btnQuit.Location = new System.Drawing.Point(230, 140);
         btnQuit.Size = new System.Drawing.Size(100, 35);
-        // btnQuit.Click += ;
+        btnQuit.Click += BtnQuit_Click;
 
         // Add control
         this.Controls.Add(lblUser);
@@ -74,6 +74,22 @@ public partial class LoginForm : Form
                 + "Password: " + txtPassword?.Text,
             caption: "Login information"
         );
+    }
+
+    // Handle btnButton clicked event
+    private void BtnLogin_Click(object? sender, EventArgs e) {
+        LoginProcessing();
+    }
+
+    private void TxtPassword_KeyDown(object? sender, KeyEventArgs e) {
+        if (e.KeyCode == Keys.Enter) {
+            LoginProcessing();
+            e.SuppressKeyPress = true;
+        }
+    }
+
+    private void BtnQuit_Click(object? sender, EventArgs e) {
+        this.Close();
     }
 
 
